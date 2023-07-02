@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+   
+    margin-left: 20px;
+  
+}
+#logo{
+    color: #e00712 !important;
+    letter-spacing: 12px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding:12px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+} 
+a,button{
+    font-size: 22x;
+    font-weight: 500;
+    color:#fff;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+ul{
+    margin-top: 5px !important;
+}
+button{
+   
+    background-color: black;
+    border: 1px white solid;
+    font-size: small !important;
+}
+.joinNow{
+    background-color: #e00712;
+}
+
+#link:hover{
+    color: #e00712 !important;
+}
+
+#link{
+    color: white !important;
+}
+.langButton{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.langButton:hover{
+    background-color:#e00712 ;
+}
+nav{
+    margin-left: -80px;
+}

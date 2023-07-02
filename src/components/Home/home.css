@@ -1,0 +1,44 @@
+body{
+    background-color: #181818 !important;
+    color:white !important;
+}
+h4{
+    letter-spacing: 4px;
+}
+#test{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.details,.trailer{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.details:hover{
+   background-color:green;
+   color:white !important;
+   transform: scale(1.7);
+}
+.trailer:hover{
+    background-color:red;
+   color:white !important;
+   transform: scale(1.7);
+}
+#link2{
+    color:grey !important;
+}
+.btnOfPagination{
+    color: grey !important;
+    border: 1px gray solid !important;
+    border-radius: 10px;
+    width:50px;
+    
+}
+  .activepaginationButtons{
+    color: black !important;
+    border: 1px black solid !important;
+    border-radius: 10px;
+    background-color: grey;
+    width:50px;
+  
+  }

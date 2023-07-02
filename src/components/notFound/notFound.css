@@ -1,0 +1,11 @@
+
+#notfound{
+    max-height: 250px;
+}
+.imgCard{
+    max-height: 80px;
+    max-width: 80px;
+}
+.card{
+    background-color: rgb(214, 214, 214) !important;
+}

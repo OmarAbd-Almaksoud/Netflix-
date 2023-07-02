@@ -1,0 +1,16 @@
+.paginationButtons {
+ 
+  color: grey !important;
+  border: 1px gray solid !important;
+  border-radius: 10px;
+  width:50px;
+  
+}
+.activepaginationButtons{
+  color: black !important;
+  border: 1px black solid !important;
+  border-radius: 10px;
+  background-color: grey;
+  width:50px;
+
+}

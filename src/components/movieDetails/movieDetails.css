@@ -1,0 +1,11 @@
+.details{
+    transition-property: all;
+    transition-duration: 0.7s;
+    width: 48%;
+ 
+}
+.details:hover{
+   background-color:green !important;
+   color:white !important;
+   transform: scale(1);
+}

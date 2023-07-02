@@ -1,0 +1,12 @@
+body{
+    background-color: #181818 !important;
+    color:white !important;
+}
+.socialIcons{
+    color:rgb(177, 177, 177) ;
+    transition-property: all;
+    transition-duration: 0.5s;
+} 
+.socialIcons:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,45 @@
+img{
+    width:100%;
+    height: 65vh;
+}
+.dataOfMovie{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    
+}
+.movieCategories{
+display: flex;
+justify-content: center;
+}
+.tab{
+background-color: rgb(82, 82, 82);
+border-radius: 5px;
+cursor: pointer;
+}
+.playButton{
+    background-color: beige;
+    color:black;
+    border-radius: 5px;
+    font-size:medium !important ;}
+.laterButton{
+    background-color: rgb(82, 82, 82);
+    border-radius: 5px;
+    font-size:medium !important ;
+    border: 1px transparent solid;
+}
+h1,h4,h5{
+    letter-spacing: 5px;
+}
+#container{
+    background-color: rgba(255,255,255,0.5);
+}
+.button{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.button:hover{
+   transform: scale(1.1);
+}
